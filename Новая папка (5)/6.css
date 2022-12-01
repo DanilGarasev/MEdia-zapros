@@ -1,0 +1,95 @@
+.grid * {
+padding: 20px 15px;
+border: 1px solid rgb(255, 0, 0);
+text-align: center;
+font-size: 30px;
+font-family: sans-serif;
+color: rgb(255, 0, 0);
+}
+.box1{
+    background: url(https://apriori-center.org/wp-content/uploads/2016/07/Evolution_by_will_yen-500x500.png);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box2{
+    background: url(https://avatarko.ru/img/kartinka/7/nyasha_6218.jpg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box3{
+    background: url(https://avatarko.ru/img/avatar/5/nyasha_4752.jpg);
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box4{
+    background: url(https://bipbap.ru/wp-content/uploads/2018/06/girl-500x500.jpg);
+    background width:100% ;
+    background height: 100%;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box5{
+    background: url(https://bipbap.ru/wp-content/uploads/2018/06/chihuahua-samaea-malenikaya-sobaca-v-mire-1024x1024-500x500.jpg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box7{
+    background: url(http://forums.crackberry.com/attachments/blackberry-q10-f272/171886d1371181552t-bbm-display-picture-limitations-423341110329_qy737vid_l.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.box6{
+    background: url(https://wallpaperaccess.com/full/2161333.jpg);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: grid;
+    grid-template-rows: center;
+    grid-gap: 30px
+}
+.nested{
+    background-color: bisque;
+    align-self: center ;
+    justify-self: center;
+}
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(5,350px);
+    padding: 1em;
+}

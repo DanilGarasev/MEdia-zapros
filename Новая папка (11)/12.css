@@ -1,0 +1,103 @@
+#root{  
+    border: 2px solid rgb(147, 145, 145); 
+  position: relative; 
+  padding: -1px; 
+   background-color:rgb(224, 224, 224); 
+   width:240px; 
+   height:250px; 
+   margin-top: 200px;  
+  display:grid;    
+  grid-template-columns: 5fr 5fr 5fr 5fr;   
+   grid-template-rows: 5fr 5fr 5fr 5fr 5fr 5fr 5fr;  
+   grid-gap: 10px; 
+   grid-template-areas:    
+    "display display display display"   
+     "plus minus multiply divide"   
+      "seven eight nine equal"   
+       "four five six equal" 
+       "one two three equal" 
+      "zero dot clear equal" ; } 
+         
+      #display{ 
+           
+          grid-area:display; 
+          color:rgb(0, 0, 0); 
+          text-align:right; 
+          background:rgb(188, 190, 190); 
+           border:none; 
+           font-size: 29px; 
+           margin-top: 15px; 
+   
+        } 
+       
+     
+        #clear 
+        { 
+          grid-area:clear; 
+       
+        } 
+     
+        #divide 
+        {  
+          grid-area:divide; 
+          background-color:rgb(143, 141, 141) 
+        } 
+        #multiply 
+        { 
+          grid-area:multiply; 
+          background-color:rgb(143, 141, 141) 
+        } 
+        #plus{ 
+          grid-area:plus; 
+          background-color:rgb(143, 141, 141) 
+        } 
+          #minus{ 
+          grid-area:minus; 
+          background-color: rgb(143, 141, 141) 
+        } 
+        #seven 
+        {  
+          grid-area:seven; 
+        } 
+        #eight 
+        { 
+          grid-area:eight; 
+        } 
+        #nine 
+        { 
+          grid-area:nine; 
+        } 
+        #four 
+        { 
+           grid-area:four; 
+        } 
+        #five 
+        { 
+          grid-area:five; 
+        } 
+        #three 
+        { 
+          grid-area:three; 
+        } 
+        #two 
+        { 
+          grid-area:two; 
+        } 
+        #one 
+        { 
+          grid-area:one; 
+        } 
+        #dot 
+        { 
+          grid-area:dot; 
+        } 
+        #zero{ 
+          grid-area:zero; 
+        } 
+        #equal{ 
+          grid-area:equal; 
+          background-color:rgb(66, 38, 177); 
+        } 
+        #six{ 
+          grid-area:six; 
+        }
